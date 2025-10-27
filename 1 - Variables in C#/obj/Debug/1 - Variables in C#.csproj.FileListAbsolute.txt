@@ -1,0 +1,8 @@
+C:\Users\RoohaniArta\OneDrive - Prakticum\Documents\C#\1 - Variables in C#\bin\Debug\1 - Variables in C#.exe.config
+C:\Users\RoohaniArta\OneDrive - Prakticum\Documents\C#\1 - Variables in C#\bin\Debug\1 - Variables in C#.exe
+C:\Users\RoohaniArta\OneDrive - Prakticum\Documents\C#\1 - Variables in C#\bin\Debug\1 - Variables in C#.pdb
+C:\Users\RoohaniArta\OneDrive - Prakticum\Documents\C#\1 - Variables in C#\obj\Debug\1 - Variables in C#.csproj.AssemblyReference.cache
+C:\Users\RoohaniArta\OneDrive - Prakticum\Documents\C#\1 - Variables in C#\obj\Debug\1 - Variables in C#.csproj.CoreCompileInputs.cache
+C:\Users\RoohaniArta\OneDrive - Prakticum\Documents\C#\1 - Variables in C#\obj\Debug\1 - Variables in C#.exe
+C:\Users\RoohaniArta\OneDrive - Prakticum\Documents\C#\1 - Variables in C#\obj\Debug\1 - Variables in C#.pdb
+C:\Users\RoohaniArta\OneDrive - Prakticum\Documents\C#\1 - Variables in C#\obj\Debug\1 - Variables in C#.exe.config
