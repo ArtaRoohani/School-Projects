@@ -12,48 +12,31 @@ namespace SwitchStatements
         {
             //Switch statement
 
-            Console.Write("Enter a day of the week; ");
-            int day = Convert.ToInt32(Console.ReadLine());
-
-            //if(day == 1)
-            //{
-            //    Console.WriteLine("Monday");
-            //}
-            //else if (day == 2 || day == 3)
-            //{
-            //    Console.WriteLine("Tuesday ");
-            //}
-            //else 
-            //{
-            //    Console.WriteLine("Invalid, Enter a value between 1 and 7");
-            //}
-
-            switch (day)
+            Console.Write("Enter grade between 0-5; ");
+            int grade = Convert.ToInt32(Console.ReadLine());
+            switch (grade)
 
             {
+                case 0:
+                    Console.WriteLine("Fail");
+                    break;
                 case 1:
-                    Console.WriteLine("Mon");
+                    Console.WriteLine("Needs improvement");
                     break;
                 case 2:
-                    Console.WriteLine("Tue");
+                    Console.WriteLine("Ok");
                     break;
                 case 3:
-                    Console.WriteLine("Wed");
+                    Console.WriteLine("Satisfactory");
                     break;
                 case 4:
-                    Console.WriteLine("Thu");
+                    Console.WriteLine("Good");
                     break;
                 case 5:
-                    Console.WriteLine("Fri");
-                    break;
-                case 6:
-                    Console.WriteLine("Sat");
-                    break;
-                case 7:
-                    Console.WriteLine("Sun");
+                    Console.WriteLine("Excelent");
                     break;
                 default:
-                    Console.WriteLine("Invalid, Enter a value between 1 and 7");
+                    Console.WriteLine("Dont even think about bypassing this grade system! >:(");
                     break;
             }
         }
