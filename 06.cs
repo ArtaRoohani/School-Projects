@@ -4,25 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Loops
+namespace _06
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            ////LOOPS
-            ////The wrong way ---
-            //Console.WriteLine("HELLO1!!1!11!");
-            //Console.WriteLine("HELLO1!!1!11!");
-            //Console.WriteLine("HELLO1!!1!11!");
-            //Console.WriteLine("HELLO1!!1!11!");
-            //Console.WriteLine("HELLO1!!1!11!");
-            //Console.WriteLine("HELLO1!!1!11!");
-
-            ////The right way ---
-            Console.Write("Type what you want to repeat: ");
-            string message = Console.ReadLine();
-
+                        ////The right way ---
             Console.Write("How many times do you want to loop? ");
             int loopCounter = Convert.ToInt32(Console.ReadLine());
             //If Else statement
@@ -34,19 +22,9 @@ namespace Loops
             {
                 for (int i = 0; i < loopCounter; i++)
                 {
-                    Console.WriteLine(message);
+                    Console.WriteLine(i);
                 }
-
-                for (int i = 0; i < loopCounter; i++)
-                {
-                    Console.WriteLine("Hi");
-                }
-                for (int x = 0; x < loopCounter; x++)
-                {
-                    Console.WriteLine(x);
-                }
-                Console.ReadLine();
-
+                Console.WriteLine("The loop is done");
             }
         }
     }
