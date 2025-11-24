@@ -1,29 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _20
+namespace ClassWithMathMethods //Cant name it "20"
 {
-    class Program
+    internal class Program
     {
         class Circle
         {
-            void Main(string[] args)
+            public double Radius;
+
+            //Contructor
+            public Circle(double radius)
             {
-                double Radius = 1.5;
-                double area = CalculateArea(Radius);
-                Console.WriteLine($"Math PI ({Math.PI}) * Radius ({Radius}) * Radius ({Radius}) = {area}");
-                Console.WriteLine($"Area of the chircle is: {area.ToString(CultureInfo.InvariantCulture)}");
+                Radius = radius;
             }
 
-            private static double CalculateArea(double Radius)
+            //Method to calculate the perimeter
+            public double GetPerimiter()
             {
-                return Math.PI * Radius * Radius;
+                return 2 * Math.PI * Radius;
             }
+
+            //Method to calculate the area
+            public double GetArea()
+            {
+                return Math.PI * Math.Pow(Radius, 2);
+            }
+        }
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the radius of the circle: ");
+            double radius = Convert.ToDouble(Console.ReadLine());
+
+            Circle circle = new Circle(radius);
+
+            double GetPerimiter = circle.GetPerimiter();
+            double area = circle.GetArea();
+
+            Console.WriteLine($"The GetPerimiter of the circle is: {GetPerimiter:F2}");
+            Console.WriteLine($"The area of the circle is: {area:F2}");
+
         }
     }
 }
